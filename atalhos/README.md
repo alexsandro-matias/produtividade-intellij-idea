@@ -22,6 +22,7 @@ Uma das formas de incrementar a produtividade em programação é a utilização
 Atalho                | Ação
 | :---                | :---:
 | Ctrl + N            | Pesquisa por classes
+| Ctrl + Shift + A    | Pesquisa por todos atalhos - **Find Action**
 | Ctrl + ,            | Vai para o problem / error anterior    
 | F4 na variável      | Exibe a Hierarquia do tipo
 | Ctrl + K            | Procura pelo texto selecionado ou se nada estiver selecionado procura pela ultima pesquisa do Find dialog. 
@@ -53,8 +54,7 @@ Atalho                | Ação
 ## Manipulando linhas
 Atalho                                     | Ação
 | :---                                     | :---:
-|         | Copia a linha ou seleção em que o cursor está localizado.
-|            | Move a linha ou seleção para cima ou para baixo.
+| Ctrl + Shift + seta cima, ou para baixo  | Move a linha ou seleção para cima ou para baixo.
 | Alt + Shift + Insert                     | Deixa o cursor no modo seleção em blocos.
 | Ctrl + D                                 | Duplica a linha ou seleção.
 
