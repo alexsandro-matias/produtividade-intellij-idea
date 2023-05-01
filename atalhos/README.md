@@ -6,14 +6,17 @@ Uma das formas de incrementar a produtividade em programação é a utilização
 
 
 ## Navegação
-  Atalho              | Ação
+Atalho              | Ação
 | :---                | :---:      
 | Ctrl + 1            | Abre e fecha a aba "project"    
 | Alt + Insert        | (aba) - cria classe, interface, enum ou anotação
 | Alt + Insert        | (dentro na classe) - generate - construtor, métodos getters e setters, equals e hashcode
-| Alt + <-            | Seguir entre as abas
+| Alt + ←             | Seguir entre as abas (tabs).
+| Alt + Shift + X     | Fecha todas as abas (tabs).
 | Ctrl + Shift + F12  | Maximiza a tela.
 | Ctrl + Shift + S    | (settings) configurações do projeto.
+| Ctrl + B            | Inspeciona diretamente a implementação do construtor ou método selecionado
+| Alt + 1             | Alterna entre o Project (árvore do projeto) e o código.
 
 
 
@@ -24,7 +27,7 @@ Atalho                | Ação
 | Ctrl + N            | Pesquisa por classes
 | Ctrl + Shift + A    | Pesquisa por todos atalhos - **Find Action**
 | Ctrl + ,            | Vai para o problem / error anterior    
-| F4 na variável      | Exibe a Hierarquia do tipo
+| F4 na variável      | Exibe a implementação da classe
 | Ctrl + K            | Procura pelo texto selecionado ou se nada estiver selecionado procura pela ultima pesquisa do Find dialog. 
 | Ctrl + Shift + G	  | No editor java, pesquisa por referencias no workspace
 | Ctrl + Shift + P    | Seleciona o { ou } do seu codigo java. O cursor precisa estar entre as "{}" (Chaves).
@@ -55,17 +58,17 @@ Atalho                | Ação
 Atalho                                     | Ação
 | :---                                     | :---:
 | Ctrl + Shift + seta cima, ou para baixo  | Move a linha ou seleção para cima ou para baixo.
-| Alt + Shift + Insert                     | Deixa o cursor no modo seleção em blocos.
+| Alt + Shift + Insert                     | Deixa o cursor no modo seleção em blocos ou por colunas.
 | Ctrl + D                                 | Duplica a linha ou seleção.
 
 
 ## Deleção de código (linhas)
 Atalho                                     | Ação
 | :---                                     | :---:
-
 | Ctrl + Shift + DEL	                     | Deleta a linha do lado direito do cursor.
 | Ctrl + DEL                               | Deleta o próximo elemento.
 | Ctrl + BACKSPACE                         | Deleta o elemento anterior.
+| Ctrl + y                                 | Deletaa linha inteira.
 
 
 ## Criação de linhas
@@ -76,10 +79,19 @@ Atalho                                     | Ação
 | Ctrl + /	                               | Comenta as linhas selecionadas.
 
 
-## Objetos
+## Classes eObjetos
 Atalho                   | Ação
 | :---                   | :---:
-| F6                     | Move uma classe para um pacote
-| Alt + Enter            | Sugestões inteligentes para criação de variáveis locais
+| F5                     | Faz uma cópia de uma classe.
+| F6                     | Move uma classe para um pacote.
+| Alt + Enter            | Sugestões inteligentes para criação de variáveis locais.
+
+
+## Refatoração
+Atalho                   | Ação
+| :---                   | :---:
+| Ctrl + Alt + M         | Extrair método  
+| Shift + F6             | Move uma classe para um pacote.
+| Ctrl + Alt + L         | Formatação ou autoformatação rápida do código
 
 

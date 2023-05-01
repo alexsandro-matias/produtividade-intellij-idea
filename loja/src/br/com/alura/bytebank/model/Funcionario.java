@@ -4,9 +4,10 @@ import java.time.LocalDate;
 import java.util.Objects;
 
 public class Funcionario {
-    private final String nome;
-    private final int matricula;
-    private final LocalDate dataNascimento;
+    private String nome;
+    private int matricula;
+    private LocalDate dataNascimento;
+
 
     public Funcionario(String nome, int matricula, LocalDate dataNascimento) {
         this.nome = nome;
@@ -32,3 +33,4 @@ public class Funcionario {
         return Objects.hash(nome, matricula, dataNascimento);
     }
 }
+
