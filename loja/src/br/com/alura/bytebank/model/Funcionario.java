@@ -4,6 +4,8 @@ import java.time.LocalDate;
 import java.util.Objects;
 
 public class Funcionario {
+    protected String usuario;
+    protected String senha;
     private String nome;
     private int matricula;
     private LocalDate dataNascimento;
@@ -31,6 +33,10 @@ public class Funcionario {
     @Override
     public int hashCode() {
         return Objects.hash(nome, matricula, dataNascimento);
+    }
+
+    public String getUsuario() {
+        return usuario;
     }
 }
 
