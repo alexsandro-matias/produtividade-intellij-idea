@@ -22,17 +22,19 @@ Atalho                | Ação
 
 
 ## Pesquisas
-Atalho                | Ação
-| :---                | :---:
-| Ctrl + N            | Pesquisa por classes
-| Ctrl + Shift + A    | Pesquisa por todos atalhos - **Find Action**
-| Ctrl + ,            | Vai para o problem / error anterior    
-| F4 na variável      | Exibe a implementação da classe
-| Ctrl + K            | Procura pelo texto selecionado ou se nada estiver selecionado procura pela ultima pesquisa do Find dialog. 
-| Ctrl + Shift + G	  | No editor java, pesquisa por referencias no workspace.
-| Ctrl + W            | Seleciona o código por progressão, ou seja, a parte selecionada e depois expandido para todo o código java.
-| Ctrl + Shift + P    | Seleciona o { ou } do seu codigo java. O cursor precisa estar entre as "{}" (Chaves).
-
+Atalho                      | Ação
+| :---                      | :---:
+| Ctrl + N                  | Pesquisa por classes
+| Ctrl + Shift + A          | Pesquisa por todos atalhos - **Find Action**
+| Ctrl + ,                  | Vai para o problem / error anterior    
+| F4 na variável            | Exibe a implementação da classe
+| Ctrl + K                  | Procura pelo texto selecionado ou se nada estiver selecionado procura pela ultima pesquisa do Find dialog. 
+| Ctrl + Shift + G	        | No editor java, pesquisa por referencias no workspace.
+| Ctrl + W                  | Seleciona o código por progressão, ou seja, a parte selecionada e depois expandido para todo o código java.
+| Ctrl + Shift + P          | Seleciona o { ou } do seu codigo java. O cursor precisa estar entre as "{}" (Chaves).
+| Alt + F7 ou Ctrl + F7     | Encontrar usos de algum Artefato - Classe ou Método.
+| Ctrl + Shift + F7         | Colore usos no arquivo
+| Ctrl + Alt + F7           | Mostra todos usos no projeto | 
 
 
 
@@ -95,5 +97,18 @@ Atalho                   | Ação
 | Shift + F6             | Move uma classe para um pacote.
 | Ctrl + Alt + L         | Formatação ou autoformatação rápida do código
 | Ctrl + Alt + Shift + T | Refactor this - encapsulamento melhorado
+
+
+## Snippets ou Templates
+Atalho                                              | Ação
+| :---                                              | :---:
+| .var - depois de new classe()                     | cria uma varíavel local.
+| Ctrl + Alt + V - depois de new classe()           | Mesmo efeito (Variable).
+| .field - depois de new classe()                   | cria um campo (field) na classe.
+| Ctrl + Alt + F - depois de new classe()           | Mesmo efeito.
+| Ctrl + Alt + C - depois de new classe()           | Torna uma variável em uma constante.
+| Ctrl + Alt + T - depois de new classe()           | Deixa o código dentro de um escopo de condicional, laço ou exceção.
+| Ctrl + J - depois de um . de uma  classe          | Deixa o código dentro de um escopo de condicional, laço ou exceção.
+
 
 
