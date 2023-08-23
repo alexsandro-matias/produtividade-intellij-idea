@@ -32,8 +32,11 @@ Atalho                      | Ação
 | Ctrl + Shift + G	        | No editor java, pesquisa por referencias no workspace.
 | Ctrl + W                  | Seleciona o código por progressão, ou seja, a parte selecionada e depois expandido para todo o código java.
 | Ctrl + Shift + P          | Seleciona o { ou } do seu codigo java. O cursor precisa estar entre as "{}" (Chaves).
+| Ctrl + P                  | (entre os { } ) do método - mostra qual parâmetros são válidos para aquele método.
 | Alt + F7 ou Ctrl + F7     | Encontrar usos de algum Artefato - Classe ou Método.
+| Ctrl + F12                | Encontrar usos de algum Método selecionado.
 | Ctrl + Shift + F7         | Colore usos no arquivo
+| Ctrl + E                  | Navega pelo arquivo recentemente abertos
 | Ctrl + Alt + F7           | Mostra todos usos no projeto | 
 
 
