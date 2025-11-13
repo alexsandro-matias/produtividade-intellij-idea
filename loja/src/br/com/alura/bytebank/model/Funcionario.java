@@ -5,11 +5,11 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 public class Funcionario {
-    protected String usuario;
-    protected String senha;
     private final String nome;
     private final int matricula;
     private final LocalDate dataNascimento;
+    protected String usuario;
+    protected String senha;
 
 
     public Funcionario(String nome, int matricula, LocalDate dataNascimento) {
