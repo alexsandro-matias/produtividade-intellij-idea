@@ -106,6 +106,50 @@ já segue diretamente para a linha correspondente desta implemetação
 | Ctrl + Alt + L         | Formatação ou autoformatação rápida do código | 
 | Ctrl + Alt + Shift + T |   Refactor this - encapsulamento melhorado    |    
 
+# Snippets (Live Templates) do IntelliJ IDEA para Java
+
+| Atalho    | Descrição                             | Exemplo gerado                                     |
+|-----------|---------------------------------------|----------------------------------------------------|
+| `psvm`    | Método main                           | `public static void main(String[] args) {}`        |
+| `sout`    | Print linha                           | `System.out.println();`                            |
+| `fori`    | Loop for padrão com índice            | `for (int i = 0; i < ; i++) {}`                    |
+| `iter`    | Loop for-each (enhanced for)          | `for (Tipo var : array) {}`                        |
+| `ifn`     | If null check                         | `if (obj == null) {}`                              |
+| `inn`     | If not null                           | `if (obj != null) {}`                              |
+| `else`    | Else statement                        | `else {}`                                          |
+| `try`     | Try-catch block                       | `try { } catch(Exception e) { }`                   |
+| `tryf`    | Try-finally                           | `try { } finally { }`                              |
+| `tryc`    | Try-with-resources                    | `try (Resource res = ) { } catch(Exception e) { }` |
+| `soutv`   | Print variável com nome               | `System.out.println("var = " + var);`              |
+| `private` | Declaração rápida de private variable | `private Tipo nome;`                               |
+| `pub`     | Declaração rápida de public method    | `public void nomeMetodo() {}`                      |
+| `psf`     | Declaração rápida de static final     | `public static final Tipo NOME = ;`                |
+| `enum`    | Declaração de enum                    | `enum Nome { }`                                    |
+| `lambda`  | Expressão lambda                      | `(params) -> { }`                                  |
+| `new`     | Criação rápida de objeto              | `new ClassName()`                                  |
+| `anon`    | Classe anônima                        | `new Interface() {}`                               |
+| `field`   | Gera campos com getter/setter         | Campos privados e seus getters/setters             |
+| `todo`    | Comentário TODO                       | `// TODO: `                                        |
+| `foreach` | Loop for-each (sinônimo de iter)      | `for (Tipo var : array) {}`                        |
+| `switch`  | Estrutura switch                      | `switch(var) { case : break; default: }`           |
+| `case`    | Caso em switch                        | `case : break;`                                    |
+| `assert`  | Declaração assert                     | `assert condition;`                                |
+| `sysout`  | Sinônimo para System.out.println      | `System.out.println();`                            |
+
+---
+
+### Como usar:
+
+- Digite o atalho do snippet no editor Java do IntelliJ IDEA
+- Pressione **Tab** ou **Enter** para expandir o template no código.
+- Você pode personalizar ou criar seus próprios snippets em:  
+  `File > Settings > Editor > Live Templates`
+
+---
+
+*Esta lista cobre os templates padrão para Java. O IntelliJ também oferece snippets para outras linguagens e
+frameworks!*
+
 ## Snippets ou Templates
 
 | Atalho                                   |                                Ação                                 |                                 
@@ -117,3 +161,5 @@ já segue diretamente para a linha correspondente desta implemetação
 | Ctrl + Alt + C - depois de new classe()  |                Torna uma variável em uma constante.                 |                 
 | Ctrl + Alt + T - depois de new classe()  | Deixa o código dentro de um escopo de condicional, laço ou exceção. | 
 | Ctrl + J - depois de um . de uma  classe | Deixa o código dentro de um escopo de condicional, laço ou exceção. | 
+
+
