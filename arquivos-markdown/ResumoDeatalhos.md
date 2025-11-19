@@ -7,42 +7,42 @@ pelo programador. Então, abaixo segue uma série de atalhos que facilitam a vid
 o [IDE Intellij Idea Comunnity](https://www.jetbrains.com/idea/download/), que no caso é a versão gratuita da versão
 Enterprise do mesmo software mantido pela empresa JetBrains.
 
-## Navegação
+## Navegação e comandos gerais
 
-| Atalho             |                                           Ação                                           |
-|:-------------------|:----------------------------------------------------------------------------------------:|
-| Ctrl + 1           |                               Abre e fecha a aba "project"                               |
-| Alt + Insert       |                     (aba) - cria classe, interface, enum ou anotação                     |
-| Alt + Insert       | (dentro na classe) - generate - construtor, métodos getters e setters, equals e hashcode |
-| Alt + ← →          |                         Seguir (alternar) entre as abas (tabs).                          |
-| Alt + Shift + X    |                               Fecha todas as abas (tabs).                                |
-| Ctrl + Shift + F12 |                                     Maximiza a tela.                                     |
-| Ctrl + Shift + S   |                           (settings) configurações do projeto.                           |
-| Ctrl + B           |   Inspeciona diretamente a implementação do construtor ou método selecionado, ou seja,   |
-
-já segue diretamente para a linha correspondente desta implemetação
-| Alt + 1 | Alterna entre o Project (árvore do projeto) e o código.
+| Atalho                 |                                              Ação                                              |
+|:-----------------------|:----------------------------------------------------------------------------------------------:|
+| Ctrl + 1               | Abre e fecha a aba "project", ou seja, Alterna entre o Project (árvore do projeto) e o código. |
+| Alt + Insert           |                 (aba) - **generate** cria classe, interface, enum ou anotação                  |
+| Alt + Insert           |  (dentro na classe) - **generate** - construtor, métodos getters e setters, equals e hashcode  |
+| Alt + ← →              |                            Seguir (alternar) entre as abas (tabs).                             |
+| Alt + Shift + X        |                                  Fecha todas as abas (tabs).                                   |
+| Ctrl + Shift + F12     |                                   Maximiza a tela do editor                                    |
+| Ctrl + Shift + S       |               (settings) Abre caixa de diálogo para configurações gerais da IDE.               |
+| Ctrl + Alt + Shift + S |             (settings) Abre caixa de diálogo para configurações gerais do projeto.             |
+| Ctrl + Alt + Y         |                                   Inicia modo sincronização                                    |
+| Ctrl + B               |      Inspeciona diretamente a implementação do construtor ou método selecionado, ou seja,      |
 
 ## Pesquisas
 
-| Atalho                |                                                              Ação                                                               |                                                              
-|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------:|
-| Ctrl + N              |                                                      Pesquisa por classes                                                       |                                                      
-| Ctrl + Shift + A      |                                          Pesquisa por todos atalhos - **Find Action**                                           |                                          
-| Ctrl + ,              |                                               Vai para o problem / error anterior                                               |                                               
-| F4 na variável        |                                                 Exibe a implementação da classe                                                 |                                                 
-| Ctrl + K              |           Procura pelo texto selecionado ou se nada estiver selecionado procura pela ultima pesquisa do Find dialog.            |           
-| Ctrl + Shift + G	     |                                     No editor java, pesquisa por referencias no workspace.                                      |                                     
-| Ctrl + W              | Seleciona o código por progressão, ou seja, a parte selecionada e depois expandindo do escopo mais interno para o mais externo. | 
-| Ctrl + Shift + P      |                      Seleciona o { ou } do seu codigo java. O cursor precisa estar entre as "{}" (Chaves).                      |                      
-| Ctrl + P              |                       (entre os { } ) do método - mostra qual parâmetros são válidos para aquele método.                        |                       
-| Alt + F7 ou Ctrl + F7 |                                      Encontrar usos de algum Artefato - Classe ou Método.                                       |                                      
-| Ctrl + F12            |                                           Encontrar usos de algum Método selecionado.                                           |                                           
-| Ctrl + Shift + F7     |                                                     Colore usos no arquivo.                                                     |                                                     
-| Ctrl + E              |                                            Navega pelo arquivo recentemente abertos                                             |                                            
-| Ctrl + F              |           Pesquisa por tudo dentro do projeto dentre arquivos, variáveis, classes e métodos  (__Search Everywhere__).           |           
-| Shift+ Shift          |                                  Pesquisa por textos contidos no arquivos (__Find in Path__).                                   |                                  
-| Ctrl + Alt + F7       |                                                  Mostra todos usos no projeto.                                                  | 
+| Atalho                           |                                                              Ação                                                               |                                                              
+|:---------------------------------|:-------------------------------------------------------------------------------------------------------------------------------:|
+| Ctrl + N                         |                                                      Pesquisa por classes                                                       |                                                      
+| Ctrl + Shift + A                 |                                          Pesquisa por todos atalhos - **Find Action**                                           |                                          
+| Ctrl + ,                         |                                               Vai para o problem / error anterior                                               |                                               
+| F4 na variável                   |                                                 Exibe a implementação da classe                                                 |                                                 
+| Ctrl + K                         |           Procura pelo texto selecionado ou se nada estiver selecionado procura pela ultima pesquisa do Find dialog.            |           
+| Ctrl + Shift + G	                |                                     No editor java, pesquisa por referencias no workspace.                                      |                                     
+| Ctrl + W                         | Seleciona o código por progressão, ou seja, a parte selecionada e depois expandindo do escopo mais interno para o mais externo. | 
+| Ctrl + Shift + W                 |                                               Faz a seleção inversa da anterior.                                                | 
+| Ctrl + Shift + P                 |                      Seleciona o { ou } do seu codigo java. O cursor precisa estar entre as "{}" (Chaves).                      |                      
+| Ctrl + P                         |    (entre os { } ) do método - mostra informações de parâmetros, ou seja, qual os parâmetros são válidos para aquele método.    |                       
+| Alt + F7 ou Ctrl + F7            |                                      Encontrar usos de algum Artefato - Classe ou Método.                                       |                                      
+| Ctrl + F12                       |                                           Encontrar usos de algum Método selecionado.                                           |                                           
+| Ctrl + Shift + F7                |                                                     Colore usos no arquivo.                                                     |                                                     
+| Ctrl + E                         |                                       Exibe e/ou Navega pelo arquivo recentemente abertos                                       |                                            
+| Shift + Shift (**double shift**) |                                  Pesquisa por textos contidos no arquivos (__Find in Path__).                                   |                                  
+| Ctrl + F                         |                                         Pesquisa por um texto dentro no arquivo atual.                                          |           
+| Ctrl + Alt + F7                  |                                                  Mostra todos usos no projeto.                                                  | 
 
 ## Execução de programas
 
@@ -55,56 +55,50 @@ já segue diretamente para a linha correspondente desta implemetação
 
 | Atalho            |                                         Ação                                         |                                         
 |:------------------|:------------------------------------------------------------------------------------:|
-| Shift + F9        |                                Executar em modo Debug                                |                                
 | Shift + F5        |                               Rexecutar em modo Debug                                |                                
-| F9                |                          Continuar a execução do programa.                           |                           
 | F7                |              Step Into (Seguir para parte mais interna do breakpoint).               |               
 | F8                | Step Over (executar até o proximo breakpoint se houver, ou até o final da execução). | 
-| Shift + F8        |                                       Step out                                       |                                       
+| F9                |                          Continuar a execução do programa.                           |                           
+| Shift + F7        |                                   Smart Step into                                    |                                       
+| Shift + F8        |                                    Smart Step out                                    |                                       
+| Shift + F9        |                                Executar em modo Debug                                |                                
 | Ctrl + Shift + F8 |                               Ver todos os Breakpoints                               |                               
 
 ## Manipulando linhas
 
-| Atalho               |                                    Ação                                     |                                     
-|:---------------------|:---------------------------------------------------------------------------:|
-| Ctrl + Shift + ↑, ↓  | Move a linha ou seleção para cima ou para baixo somente no escopo da linha. | 
-| Alt + Shift + ↑, ↓   |      Move a linha ou seleção para cima ou para baixo em todo o código.      |      
-| Alt + Shift + Insert |          Deixa o cursor no modo seleção em blocos ou por colunas.           |           
-| Ctrl + D             |                         Duplica a linha ou seleção.                         |                         
-
-## Deleção de código (linhas)
-
-| Atalho             |                   Ação                    |                    
-|:-------------------|:-----------------------------------------:|
-| Ctrl + Shift + DEL | Deleta a linha do lado direito do cursor. | 
-| Ctrl + DEL         |        Deleta o próximo elemento.         |         
-| Ctrl + BACKSPACE   |        Deleta o elemento anterior.        |        
-| Ctrl + y           |           Deleta linha inteira.           |           
-
-## Manipulação de linhas
-
-| Atalho               |                                         Ação                                          |                                          
+| Atalho               |                                         Ação                                          |                                     
 |:---------------------|:-------------------------------------------------------------------------------------:|
+| Ctrl + Shift + ↑, ↓  |      Move a linha ou seleção para cima ou para baixo somente no escopo da linha.      | 
+| Alt + Shift + ↑, ↓   |           Move a linha ou seleção para cima ou para baixo em todo o código.           |      
+| Alt + Shift + Insert |               Deixa o cursor no modo seleção em blocos ou por colunas.                |           
+| Ctrl + D             |                              Duplica a linha ou seleção.                              |
+| Ctrl + Shift + DEL   |                       Deleta a linha do lado direito do cursor.                       |
+| Ctrl + DEL           |                              Deleta o próximo elemento.                               |         
+| Ctrl + BACKSPACE     |                              Deleta o elemento anterior.                              |        
+| Ctrl + y             |                                 Deleta linha inteira.                                 |
 | Shift + Enter        | Adiciona uma linha em branco abaixo da linha atual e move o cursor para a nova linha. | 
 | Ctrl + Shift + Enter |                   Mesmo que o anterior, porém com efeito para cima.                   |                   
 | Ctrl + /             |                            Comenta as linhas selecionadas.                            |                            
 
 ## Classes e Objetos
 
-| Atalho      |                                    Ação                                     |                                     
-|:------------|:---------------------------------------------------------------------------:|
-| F5          |                        Faz uma cópia de uma classe.                         |                         
-| F6          |                       Move uma classe para um pacote.                       |                       
-| Alt + Enter | Sugestões inteligentes para criação de variáveis locais, testes de classes. | 
+| Atalho           |                                           Ação                                            |                                     
+|:-----------------|:-----------------------------------------------------------------------------------------:|
+| F3               |                     Encontra a próxima ocorrência do item selecionado                     |                         
+| Shift + F3       |                    Encontra a ocorrência anterior do item selecionado                     |                         
+| F5               |                               Faz uma cópia de uma classe.                                |                         
+| F6               |                              Move uma classe para um pacote.                              |                       
+| Alt + Enter      | Sugestões inteligentes, ou intenções para criação de variáveis locais, testes de classes. | 
+| ctrl + shift + I |       Inspeciona, ou seja, mostra detalhes de variáveis locais, testes de classes.        | 
 
 ## Refatoração
 
-| Atalho                 |                     Ação                      |                      
-|:-----------------------|:---------------------------------------------:|
-| Ctrl + Alt + M         |                Extrair método                 |                 
-| Shift + F6             |        Move uma classe para um pacote.        |        
-| Ctrl + Alt + L         | Formatação ou autoformatação rápida do código | 
-| Ctrl + Alt + Shift + T |   Refactor this - encapsulamento melhorado    |    
+| Atalho                 |                         Ação                          |                      
+|:-----------------------|:-----------------------------------------------------:|
+| Ctrl + Alt + M         |                    Extrair método                     |                 
+| Shift + F6             | Renomeia um item do projeto (classe, pacote, método). |        
+| Ctrl + Alt + L         |     Formatação ou autoformatação rápida do código     | 
+| Ctrl + Alt + Shift + T |       Refactor this - encapsulamento melhorado        |    
 
 # Snippets (Live Templates) do IntelliJ IDEA para Java
 
